@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "name": "Рустем",
+        "user_id": "c010ee0d10fd42199c955997ff082418",
+        "device_trackers": [
+          "device_tracker.redmi_note_9_pro",
+          "device_tracker.mi_8"
+        ],
+        "id": "rustem"
+      },
+      {
+        "name": "Катя",
+        "device_trackers": [
+          "device_tracker.mi_8"
+        ],
+        "user_id": null,
+        "picture": null,
+        "id": "katia"
+      }
+    ]
+  }
+}

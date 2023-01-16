@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "4ef6a14ba9b3e7c95c3985a2e161b0c1",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d1d7f38b56104cfc41795b0f237cf1dc",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c19151439dc42b06b3471f1eba20d884",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "750056aec025d0d5cf879d9c85856e3f",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Redmi Note 9 Pro",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2022.12.0-full (3026)",
+          "device_name": "Redmi Note 9 Pro",
+          "manufacturer": "Xiaomi",
+          "model": "Redmi Note 9 Pro",
+          "os_name": "Android",
+          "os_version": "30",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "df82IsO0Tl-tSYp866L98F:APA91bG2vjRz6n5K8jTN-3rIQB7XTCq7kXspClrupgdAPvBIeA9IhroxAAHXDU7R-5cIHFaKdAvcKPTYk4AL8SQazDnvvmffeKdJ7137XFTdl4H2V64wROgrvpw_fNNKqrPHLAB524j2"
+          },
+          "device_id": "984cb73e9218fcef",
+          "webhook_id": "3d6d34905f62cfb4cc6eb995c43695df77ebf778a9ce254eefced562b9aa10aa",
+          "user_id": "c010ee0d10fd42199c955997ff082418"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-984cb73e9218fcef",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3cdfc4bb2682142e44b6065c54692ab9",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "MI 8",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2022.12.0-full (3026)",
+          "device_name": "MI 8",
+          "manufacturer": "Xiaomi",
+          "model": "MI 8",
+          "os_name": "Android",
+          "os_version": "29",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "ebD0CgL8T-uKv5TlCLYolE:APA91bHmFNnXHoqIHrsY4w7YXSZtmRjSBw1JKLt0Kpmt9qdQFWf7-0dJxFaG3MuClYkzMhv8q_xYvN56y9SAYJ9jednLoK-0vkCnMu3LSqSPX5QLYgspJ0tF61p8LIIlTOOeVBd2Lpek"
+          },
+          "device_id": "a82f9fae229a958e",
+          "webhook_id": "6266bac26be9085d2ee968a343138fdfde7e9ad800bbfed682429d76ec609be0",
+          "user_id": "c010ee0d10fd42199c955997ff082418"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-a82f9fae229a958e",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "123f5e69172b7987610c115a85e1f124",
+        "version": 1,
+        "domain": "xiaomi_miio",
+        "title": "Шлюз",
+        "data": {
+          "config_flow_device": "gateway",
+          "host": "192.168.0.150",
+          "token": "802d21820ae32a17e476bc4c2826606a",
+          "model": "lumi.gateway.v3",
+          "mac": "34:ce:00:fb:63:2e",
+          "cloud_username": "hubbatov@mail.ru",
+          "cloud_password": "smalltalk23",
+          "cloud_country": "cn"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "34:ce:00:fb:63:2e",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2f9e8af6e39baa5c25bba731f3495403",
+        "version": 1,
+        "domain": "xiaomi_aqara",
+        "title": "Xiaomi Aqara Gateway",
+        "data": {
+          "host": "192.168.0.150",
+          "port": 9898,
+          "mac": "34:ce:00:fb:63:2e",
+          "interface": "any",
+          "protocol": "1.1.2",
+          "key": null,
+          "sid": "34ce00fb632e"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "34:ce:00:fb:63:2e",
+        "disabled_by": null
+      }
+    ]
+  }
+}

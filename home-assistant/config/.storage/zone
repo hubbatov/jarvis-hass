@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "zone",
+  "data": {
+    "items": [
+      {
+        "latitude": 56.883137751638436,
+        "longitude": 35.90428590774537,
+        "name": "Работа",
+        "icon": "mdi:map-marker",
+        "passive": false,
+        "radius": 58.0,
+        "id": "rabota"
+      }
+    ]
+  }
+}

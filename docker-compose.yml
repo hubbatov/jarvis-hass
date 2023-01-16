@@ -1,0 +1,22 @@
+version: '3'
+
+services:     
+  homeassistant:
+    container_name: home-assistant
+    image: homeassistant/home-assistant:2023.1.2
+    restart: always
+    privileged: true
+    volumes:
+      - ./home-assistant/config:/config
+    network_mode: host
+    environment:
+      - TZ=Europe/Moscow
+  mqtt:
+    container_name: mqtt
+    image: eclipse-mosquitto:1.6.8
+    network_mode: host
+    restart: always
+    volumes:
+      - ./mqtt/config:/mosquitto/config
+      - ./mqtt/conf.d:/mosquitto/conf.d
+      - ./mqtt/ssl:/mosquitto/ssl

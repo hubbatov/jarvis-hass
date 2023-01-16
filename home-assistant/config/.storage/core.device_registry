@@ -1,0 +1,602 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "d1d7f38b56104cfc41795b0f237cf1dc"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "993cf7f8cecca445c6895956f071518e",
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "750056aec025d0d5cf879d9c85856e3f"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c9c19c547e05fe482a308874babd7303",
+        "identifiers": [
+          [
+            "mobile_app",
+            "984cb73e9218fcef"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "Redmi Note 9 Pro",
+        "name_by_user": null,
+        "name": "Redmi Note 9 Pro",
+        "sw_version": "30",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3cdfc4bb2682142e44b6065c54692ab9"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "1b09808099d9a5b4ebe5615f6295236c",
+        "identifiers": [
+          [
+            "mobile_app",
+            "a82f9fae229a958e"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "MI 8",
+        "name_by_user": null,
+        "name": "MI 8",
+        "sw_version": "29",
+        "via_device_id": null
+      },
+      {
+        "area_id": "korridor",
+        "config_entries": [
+          "123f5e69172b7987610c115a85e1f124"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "34:ce:00:fb:63:2e"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "MW300",
+        "id": "6315b0c18b79af19dfd683e0a2425ce7",
+        "identifiers": [
+          [
+            "xiaomi_miio",
+            "34:ce:00:fb:63:2e"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "lumi.gateway.v3",
+        "name_by_user": null,
+        "name": "Шлюз",
+        "sw_version": "1.4.1_176",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "123f5e69172b7987610c115a85e1f124"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "lumi.sensor_ht.v1",
+        "id": "93b96753f9019adcf71127e12a73dd25",
+        "identifiers": [
+          [
+            "xiaomi_miio",
+            "lumi.158d0002226592"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "WSDCGQ01LM",
+        "name_by_user": null,
+        "name": "Weather sensor (lumi.158d0002226592)",
+        "sw_version": 2,
+        "via_device_id": "6315b0c18b79af19dfd683e0a2425ce7"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "123f5e69172b7987610c115a85e1f124"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "lumi.sensor_ht.v1",
+        "id": "09bed9e7da7c8bdf774b43ecc58a69a5",
+        "identifiers": [
+          [
+            "xiaomi_miio",
+            "lumi.158d0001dfdb4e"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "WSDCGQ01LM",
+        "name_by_user": null,
+        "name": "Weather sensor (lumi.158d0001dfdb4e)",
+        "sw_version": 2,
+        "via_device_id": "6315b0c18b79af19dfd683e0a2425ce7"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "123f5e69172b7987610c115a85e1f124"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "lumi.weather.v1",
+        "id": "baddf2897627320003be6005e506653e",
+        "identifiers": [
+          [
+            "xiaomi_miio",
+            "lumi.158d0008028b63"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "WSDCGQ11LM",
+        "name_by_user": null,
+        "name": "Weather sensor (lumi.158d0008028b63)",
+        "sw_version": 5,
+        "via_device_id": "6315b0c18b79af19dfd683e0a2425ce7"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "123f5e69172b7987610c115a85e1f124"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "lumi.weather.v1",
+        "id": "31058eef5f75390448c12a001d5180f0",
+        "identifiers": [
+          [
+            "xiaomi_miio",
+            "lumi.158d0008075317"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "WSDCGQ11LM",
+        "name_by_user": null,
+        "name": "Weather sensor (lumi.158d0008075317)",
+        "sw_version": 5,
+        "via_device_id": "6315b0c18b79af19dfd683e0a2425ce7"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "123f5e69172b7987610c115a85e1f124"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "lumi.weather.v1",
+        "id": "d584dd6cba601e4f7cc3c0d48437b835",
+        "identifiers": [
+          [
+            "xiaomi_miio",
+            "lumi.158d000807530a"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "WSDCGQ11LM",
+        "name_by_user": null,
+        "name": "Weather sensor (lumi.158d000807530a)",
+        "sw_version": 5,
+        "via_device_id": "6315b0c18b79af19dfd683e0a2425ce7"
+      },
+      {
+        "area_id": "korridor",
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "d708a2324cac30d6403b68bd99dab66d",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "34:ce:00:fb:63:2e"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "gateway",
+        "name_by_user": null,
+        "name": "Xiaomi Aqara Gateway",
+        "sw_version": "1.1.2",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "158d0001c348be"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "26f49870b0c3d9bacbcb05211b499046",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "158d0001c348be"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "sensor_wleak.aq1",
+        "name_by_user": null,
+        "name": "sensor_wleak.aq1_158d0001c348be",
+        "sw_version": "1.1.2",
+        "via_device_id": "d708a2324cac30d6403b68bd99dab66d"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "158d0001c34893"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b0efe7a1c4e9f73d97c547304c113bbf",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "158d0001c34893"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "sensor_wleak.aq1",
+        "name_by_user": null,
+        "name": "sensor_wleak.aq1_158d0001c34893",
+        "sw_version": "1.1.2",
+        "via_device_id": "d708a2324cac30d6403b68bd99dab66d"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "158d0002277aaf"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "3f64b888b6d4bf6cdce6d7290bbdd2e1",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "158d0002277aaf"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "magnet",
+        "name_by_user": null,
+        "name": "magnet_158d0002277aaf",
+        "sw_version": "1.1.2",
+        "via_device_id": "d708a2324cac30d6403b68bd99dab66d"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "158d000276a0ad"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b72a14f437fd1a59378319e1dc75d22d",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "158d000276a0ad"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "magnet",
+        "name_by_user": null,
+        "name": "magnet_158d000276a0ad",
+        "sw_version": "1.1.2",
+        "via_device_id": "d708a2324cac30d6403b68bd99dab66d"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "158d000223c6ca"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a033321a9cf915c8e4fd3bdb83effcac",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "158d000223c6ca"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "motion",
+        "name_by_user": null,
+        "name": "motion_158d000223c6ca",
+        "sw_version": "1.1.2",
+        "via_device_id": "d708a2324cac30d6403b68bd99dab66d"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "158d000864f09f"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "135df6c9a4d5dcc7b46de06b7e2fea04",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "158d000864f09f"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "sensor_wleak.aq1",
+        "name_by_user": null,
+        "name": "sensor_wleak.aq1_158d000864f09f",
+        "sw_version": "1.1.2",
+        "via_device_id": "d708a2324cac30d6403b68bd99dab66d"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "158d0008651393"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c9b6493f9a9bd88128930852c4c7c1e7",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "158d0008651393"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "sensor_wleak.aq1",
+        "name_by_user": null,
+        "name": "sensor_wleak.aq1_158d0008651393",
+        "sw_version": "1.1.2",
+        "via_device_id": "d708a2324cac30d6403b68bd99dab66d"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "158d0002226592"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "8c13347edab840d7f91f46fd1bcfe8d2",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "158d0002226592"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "sensor_ht",
+        "name_by_user": null,
+        "name": "sensor_ht_158d0002226592",
+        "sw_version": "1.1.2",
+        "via_device_id": "d708a2324cac30d6403b68bd99dab66d"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "158d0001dfdb4e"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "6c3c6bdbfe33b66023740d06c945b513",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "158d0001dfdb4e"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "sensor_ht",
+        "name_by_user": null,
+        "name": "sensor_ht_158d0001dfdb4e",
+        "sw_version": "1.1.2",
+        "via_device_id": "d708a2324cac30d6403b68bd99dab66d"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "158d0008028b63"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "177c55559f84605b1f91059aed7cd509",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "158d0008028b63"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "weather.v1",
+        "name_by_user": null,
+        "name": "weather.v1_158d0008028b63",
+        "sw_version": "1.1.2",
+        "via_device_id": "d708a2324cac30d6403b68bd99dab66d"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "158d0008075317"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "eb6128801f2de2319efd7e4cd06c8d8d",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "158d0008075317"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "weather.v1",
+        "name_by_user": null,
+        "name": "weather.v1_158d0008075317",
+        "sw_version": "1.1.2",
+        "via_device_id": "d708a2324cac30d6403b68bd99dab66d"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f9e8af6e39baa5c25bba731f3495403"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "158d000807530a"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b3d224d93ec26896ded0ba0e01c198e2",
+        "identifiers": [
+          [
+            "xiaomi_aqara",
+            "158d000807530a"
+          ]
+        ],
+        "manufacturer": "Xiaomi Aqara",
+        "model": "weather.v1",
+        "name_by_user": null,
+        "name": "weather.v1_158d000807530a",
+        "sw_version": "1.1.2",
+        "via_device_id": "d708a2324cac30d6403b68bd99dab66d"
+      }
+    ],
+    "deleted_devices": []
+  }
+}

@@ -1,0 +1,17 @@
+/mqtt/ssl/*
+!/mqtt/ssl/.keep
+
+/homeassistant/config/.shopping_list.json
+/homeassistant/config/secrets.yaml
+/homeassistant/config/html5_push_registrations.conf
+/homeassistant/config/known_devices.yaml
+/homeassistant/config/home-assistant_v2*
+/homeassistant/config/home-assistant.log*
+/homeassistant/config/.storage/*
+/homeassistant/config/.HA_VERSION
+/homeassistant/config/.uuid
+/homeassistant/config/core
+/homeassistant/config/tts/*
+/homeassistant/config/www/community/*
+/homeassistant/config/.sonoff.json
+/homeassistant/config/.yandex_station.json

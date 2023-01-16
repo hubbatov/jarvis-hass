@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "aliases": [],
+        "name": "Гостиная",
+        "id": "gostinaia",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Кухня",
+        "id": "kukhnia",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Спальня",
+        "id": "spalnia",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Корридор",
+        "id": "korridor",
+        "picture": null
+      }
+    ]
+  }
+}
