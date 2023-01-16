@@ -10,10 +10,9 @@ BACKUP_NAME=jarvis_backup_$(date +"%Y%m%d_%H%M%S")
 
 echo "Waiting..."
 
-mkdir -p $BACKUP_NAME/{home-assistant/config,zigbee2mqtt/data,certbot,mqtt}
+mkdir -p $BACKUP_NAME/{home-assistant/config,mqtt}
 
 sudo cp home-assistant/config/secrets.yaml $BACKUP_NAME/home-assistant/config/secrets.yaml
-sudo cp home-assistant/config/html5_push_registrations.conf $BACKUP_NAME/home-assistant/config/html5_push_registrations.conf
 sudo cp home-assistant/config/known_devices.yaml $BACKUP_NAME/home-assistant/config/known_devices.yaml
 sudo cp -r home-assistant/config/.storage/ $BACKUP_NAME/home-assistant/config/.storage/
 
