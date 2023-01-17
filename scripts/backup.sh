@@ -4,7 +4,6 @@ set -e
 
 ENDPOINT="https://webdav.yandex.ru/"
 BACKUP_NAME=jarvis_backup_$(date +"%Y%m%d_%H%M%S")
-
 TOKEN=$(<$1)
 
 echo "Waiting..."

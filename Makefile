@@ -17,4 +17,4 @@ backup:
 	./scripts/backup.sh ./scripts/.yandex_token
 
 restore:
-	./scripts/restore.sh
+	./scripts/restore.sh ./scripts/.yandex_token
