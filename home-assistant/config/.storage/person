@@ -6,21 +6,21 @@
     "items": [
       {
         "name": "Рустем",
-        "user_id": "c010ee0d10fd42199c955997ff082418",
+        "user_id": "416d032c6db44a6487ff1e7a4cd858c7",
         "device_trackers": [
-          "device_tracker.redmi_note_9_pro",
-          "device_tracker.mi_8"
+          "device_tracker.redmi_note_9_pro"
         ],
-        "id": "rustem"
+        "id": "rustem",
+        "picture": null
       },
       {
         "name": "Катя",
         "device_trackers": [
           "device_tracker.mi_8"
         ],
-        "user_id": null,
+        "user_id": "78c0d82854184354823adf743d857309",
         "picture": null,
-        "id": "katia"
+        "id": "ekaterina"
       }
     ]
   }

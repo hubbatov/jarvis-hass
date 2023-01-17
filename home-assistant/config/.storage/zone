@@ -5,12 +5,12 @@
   "data": {
     "items": [
       {
-        "latitude": 56.883137751638436,
-        "longitude": 35.90428590774537,
+        "latitude": 56.88314947500313,
+        "longitude": 35.904393196105964,
         "name": "Работа",
-        "icon": "mdi:map-marker",
         "passive": false,
-        "radius": 58.0,
+        "radius": 45.0,
+        "icon": "mdi:wrench",
         "id": "rabota"
       }
     ]

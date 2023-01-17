@@ -5,7 +5,7 @@
   "data": {
     "entries": [
       {
-        "entry_id": "4ef6a14ba9b3e7c95c3985a2e161b0c1",
+        "entry_id": "5fbc65b819b80fde541e4478d76842eb",
         "version": 1,
         "domain": "sun",
         "title": "Sun",
@@ -18,7 +18,7 @@
         "disabled_by": null
       },
       {
-        "entry_id": "d1d7f38b56104cfc41795b0f237cf1dc",
+        "entry_id": "f67a2c6acf9f9371d073a7c79a7554e7",
         "version": 1,
         "domain": "met",
         "title": "Home",
@@ -33,7 +33,7 @@
         "disabled_by": null
       },
       {
-        "entry_id": "c19151439dc42b06b3471f1eba20d884",
+        "entry_id": "c6edb7052b501c8581ccb9f9c7466754",
         "version": 1,
         "domain": "radio_browser",
         "title": "Radio Browser",
@@ -46,7 +46,7 @@
         "disabled_by": null
       },
       {
-        "entry_id": "750056aec025d0d5cf879d9c85856e3f",
+        "entry_id": "626a9949d64149aaf03e0d769b9f719e",
         "version": 1,
         "domain": "mobile_app",
         "title": "Redmi Note 9 Pro",
@@ -66,8 +66,8 @@
             "push_token": "df82IsO0Tl-tSYp866L98F:APA91bG2vjRz6n5K8jTN-3rIQB7XTCq7kXspClrupgdAPvBIeA9IhroxAAHXDU7R-5cIHFaKdAvcKPTYk4AL8SQazDnvvmffeKdJ7137XFTdl4H2V64wROgrvpw_fNNKqrPHLAB524j2"
           },
           "device_id": "984cb73e9218fcef",
-          "webhook_id": "3d6d34905f62cfb4cc6eb995c43695df77ebf778a9ce254eefced562b9aa10aa",
-          "user_id": "c010ee0d10fd42199c955997ff082418"
+          "webhook_id": "5fa9800ae5f0a228836693f931cbbef14c965b7315f40dc82a6ef9ddfc890644",
+          "user_id": "416d032c6db44a6487ff1e7a4cd858c7"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -77,7 +77,7 @@
         "disabled_by": null
       },
       {
-        "entry_id": "3cdfc4bb2682142e44b6065c54692ab9",
+        "entry_id": "7d784bbb7f1046cfce40414c0d0b2e6b",
         "version": 1,
         "domain": "mobile_app",
         "title": "MI 8",
@@ -97,8 +97,8 @@
             "push_token": "ebD0CgL8T-uKv5TlCLYolE:APA91bHmFNnXHoqIHrsY4w7YXSZtmRjSBw1JKLt0Kpmt9qdQFWf7-0dJxFaG3MuClYkzMhv8q_xYvN56y9SAYJ9jednLoK-0vkCnMu3LSqSPX5QLYgspJ0tF61p8LIIlTOOeVBd2Lpek"
           },
           "device_id": "a82f9fae229a958e",
-          "webhook_id": "6266bac26be9085d2ee968a343138fdfde7e9ad800bbfed682429d76ec609be0",
-          "user_id": "c010ee0d10fd42199c955997ff082418"
+          "webhook_id": "5b59a3428a717272a34cdf6b1656d7bcb74af2060907f811d46463b1d2985971",
+          "user_id": "416d032c6db44a6487ff1e7a4cd858c7"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -108,10 +108,31 @@
         "disabled_by": null
       },
       {
-        "entry_id": "123f5e69172b7987610c115a85e1f124",
+        "entry_id": "15e35ad8b3035a26e396469ab6d81f38",
+        "version": 1,
+        "domain": "xiaomi_aqara",
+        "title": "Шлюз Xiaomi",
+        "data": {
+          "host": "192.168.0.150",
+          "port": 9898,
+          "mac": "34:ce:00:fb:63:2e",
+          "interface": "any",
+          "protocol": "1.1.2",
+          "key": null,
+          "sid": "34ce00fb632e"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "34:ce:00:fb:63:2e",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "77a436b73b5fbb338f76da90d6cdb0a0",
         "version": 1,
         "domain": "xiaomi_miio",
-        "title": "Шлюз",
+        "title": "Шлюз Xiaomi",
         "data": {
           "config_flow_device": "gateway",
           "host": "192.168.0.150",
@@ -130,24 +151,64 @@
         "disabled_by": null
       },
       {
-        "entry_id": "2f9e8af6e39baa5c25bba731f3495403",
+        "entry_id": "ff5eaac0c0cd94dbba0b049fc346283a",
         "version": 1,
-        "domain": "xiaomi_aqara",
-        "title": "Xiaomi Aqara Gateway",
+        "domain": "cast",
+        "title": "ТВ на кухне",
         "data": {
-          "host": "192.168.0.150",
-          "port": 9898,
-          "mac": "34:ce:00:fb:63:2e",
-          "interface": "any",
-          "protocol": "1.1.2",
-          "key": null,
-          "sid": "34ce00fb632e"
+          "ignore_cec": [],
+          "known_hosts": [],
+          "uuid": [],
+          "user_id": "d9acdec07e664ec79e24c494e3ec22d3"
         },
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "zeroconf",
-        "unique_id": "34:ce:00:fb:63:2e",
+        "unique_id": "cast",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "4c563b00af4e33dba1d6a7ecc573ed76",
+        "version": 1,
+        "domain": "ipp",
+        "title": "Canon TS3100 series",
+        "data": {
+          "host": "192.168.0.104",
+          "port": 631,
+          "ssl": true,
+          "verify_ssl": false,
+          "base_path": "/ipp/print",
+          "name": "Canon TS3100 series",
+          "uuid": "00000000-0000-1000-8000-00182720f58f"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "00000000-0000-1000-8000-00182720f58f",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3718ab3ce488feabe55fb1ad0dfc396f",
+        "version": 1,
+        "domain": "xiaomi_miio",
+        "title": "Валл⋅и",
+        "data": {
+          "config_flow_device": "device",
+          "host": "192.168.0.151",
+          "token": "554738797342387a6546453242576839",
+          "model": "roborock.vacuum.s5",
+          "mac": "7c:49:eb:9a:4c:ab",
+          "cloud_username": "hubbatov@mail.ru",
+          "cloud_password": "smalltalk23",
+          "cloud_country": "cn"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "7c:49:eb:9a:4c:ab",
         "disabled_by": null
       }
     ]
