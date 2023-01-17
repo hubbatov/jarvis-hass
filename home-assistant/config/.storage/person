@@ -8,7 +8,8 @@
         "name": "Рустем",
         "user_id": "416d032c6db44a6487ff1e7a4cd858c7",
         "device_trackers": [
-          "device_tracker.redmi_note_9_pro"
+          "device_tracker.redmi_note_9_pro",
+          "device_tracker.mi_8"
         ],
         "id": "rustem",
         "picture": null
