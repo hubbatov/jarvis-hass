@@ -14,7 +14,7 @@ restart-hass:
 	docker-compose restart home-assistant
 
 backup:
-	./scripts/backup.sh
+	./scripts/backup.sh ./scripts/.yandex_token
 
 restore:
 	./scripts/restore.sh

@@ -15,3 +15,5 @@
 /home-assistant/config/www/community/*
 /home-assistant/config/.sonoff.json
 /home-assistant/config/.yandex_station.json
+
+/scripts/.yandex_token

@@ -12,6 +12,24 @@
         "radius": 45.0,
         "icon": "mdi:wrench",
         "id": "rabota"
+      },
+      {
+        "latitude": 56.700504708996775,
+        "longitude": 35.75738240049791,
+        "name": "Рязаново",
+        "icon": "mdi:map-marker",
+        "passive": false,
+        "radius": 527.0,
+        "id": "riazanovo"
+      },
+      {
+        "latitude": 56.941338304951245,
+        "longitude": 35.70304171734731,
+        "name": "Дача",
+        "icon": "mdi:map-marker",
+        "passive": false,
+        "radius": 446.0,
+        "id": "dacha"
       }
     ]
   }

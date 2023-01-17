@@ -10,23 +10,24 @@
         "attributes": {
           "editable": true,
           "id": "rustem",
-          "latitude": 56.8739983,
-          "longitude": 35.8882739,
-          "gps_accuracy": 15,
-          "source": "device_tracker.mi_8",
+          "latitude": 56.8737896,
+          "longitude": 35.8881563,
+          "gps_accuracy": 14,
+          "source": "device_tracker.redmi_note_9_pro",
           "user_id": "416d032c6db44a6487ff1e7a4cd858c7",
+          "entity_picture": "/api/image/serve/c4752f9d27c7f16e93f6ce5eec97ecc3/512x512",
           "friendly_name": "Рустем"
         },
-        "last_changed": "2023-01-17T09:21:46.352308+00:00",
-        "last_updated": "2023-01-17T09:21:46.352308+00:00",
+        "last_changed": "2023-01-17T18:36:16.643783+00:00",
+        "last_updated": "2023-01-17T18:43:29.895403+00:00",
         "context": {
-          "id": "01GPZGHPBGPTNZZ1QDFV9Y4ANF",
+          "id": "01GQ0GP7Z7NEXDRECX660B8BX2",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
@@ -35,71 +36,72 @@
         "attributes": {
           "editable": true,
           "id": "ekaterina",
-          "latitude": 56.8739983,
-          "longitude": 35.8882739,
-          "gps_accuracy": 15,
+          "latitude": 56.8738443,
+          "longitude": 35.8881998,
+          "gps_accuracy": 14,
           "source": "device_tracker.mi_8",
           "user_id": "78c0d82854184354823adf743d857309",
+          "entity_picture": "/api/image/serve/d1ee87f7a1cc869038d8f1e85a48044a/512x512",
           "friendly_name": "Катя"
         },
-        "last_changed": "2023-01-17T06:06:15.522216+00:00",
-        "last_updated": "2023-01-17T09:21:46.351343+00:00",
+        "last_changed": "2023-01-17T18:37:42.849519+00:00",
+        "last_updated": "2023-01-17T18:59:19.525737+00:00",
         "context": {
-          "id": "01GPZGHPBFXAXCN2DM4WTB22B0",
+          "id": "01GQ0HK7B57XRSQQMQJF1A75NW",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
         "entity_id": "automation.testiruem_avtomatizatsii",
         "state": "on",
         "attributes": {
-          "last_triggered": "2023-01-16T17:23:17.805467+00:00",
+          "last_triggered": "2023-01-17T18:36:16.655152+00:00",
           "mode": "single",
           "current": 0,
           "id": "1673625388028",
           "friendly_name": "Тестируем автоматизации"
         },
         "last_changed": "2023-01-17T05:54:24.779788+00:00",
-        "last_updated": "2023-01-17T05:54:24.779788+00:00",
+        "last_updated": "2023-01-17T18:36:17.342513+00:00",
         "context": {
-          "id": "01GPZ4P0CB85HHREG9YJZ6D1RV",
-          "parent_id": null,
+          "id": "01GQ0G90W6QGBHQPAQ46Y983KT",
+          "parent_id": "01GQ0G90W11T4JRJK5HTN72XFS",
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
         "entity_id": "device_tracker.redmi_note_9_pro",
-        "state": "Работа",
+        "state": "home",
         "attributes": {
           "source_type": "gps",
-          "latitude": 56.8831328,
-          "longitude": 35.9043842,
-          "gps_accuracy": 12,
-          "altitude": 154,
+          "latitude": 56.8737896,
+          "longitude": 35.8881563,
+          "gps_accuracy": 14,
+          "altitude": 190,
           "course": 0,
           "speed": 0,
           "vertical_accuracy": 1,
           "friendly_name": "Redmi Note 9 Pro"
         },
-        "last_changed": "2023-01-17T09:20:19.784463+00:00",
-        "last_updated": "2023-01-17T09:20:19.784463+00:00",
+        "last_changed": "2023-01-17T19:00:18.345100+00:00",
+        "last_updated": "2023-01-17T19:00:18.345100+00:00",
         "context": {
-          "id": "01GPZGF1T8YAPF4M0F2SA7AHZE",
+          "id": "01GQ0HN0S9WNR9WXB40FSF87QY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
@@ -107,25 +109,25 @@
         "state": "home",
         "attributes": {
           "source_type": "gps",
-          "latitude": 56.8739983,
-          "longitude": 35.8882739,
-          "gps_accuracy": 15,
-          "altitude": 190,
+          "latitude": 56.8738443,
+          "longitude": 35.8881998,
+          "gps_accuracy": 14,
+          "altitude": 196,
           "course": 0,
           "speed": 0,
-          "vertical_accuracy": 1,
+          "vertical_accuracy": 2,
           "friendly_name": "MI 8"
         },
-        "last_changed": "2023-01-17T09:21:46.349448+00:00",
-        "last_updated": "2023-01-17T09:21:46.349448+00:00",
+        "last_changed": "2023-01-17T18:59:19.520228+00:00",
+        "last_updated": "2023-01-17T18:59:19.520228+00:00",
         "context": {
-          "id": "01GPZGHPBDZD1GY94TC7H413TH",
+          "id": "01GQ0HK7B0JV96MYCBY7X4MSFZ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
@@ -138,16 +140,16 @@
           "device_class": "opening",
           "friendly_name": "Door Window Sensor_158d0002277aaf"
         },
-        "last_changed": "2023-01-17T06:14:15.254902+00:00",
-        "last_updated": "2023-01-17T06:14:15.254902+00:00",
+        "last_changed": "2023-01-17T18:42:17.579618+00:00",
+        "last_updated": "2023-01-17T18:42:17.579618+00:00",
         "context": {
-          "id": "01GPZ5TAYP5J4JJ8N8VYS2N802",
+          "id": "01GQ0GM1BBZZGS4BVAXNNEXQPW",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
@@ -169,32 +171,32 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.redmi_note_9_pro_battery_level",
-        "state": "42",
+        "state": "17",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "%",
           "device_class": "battery",
-          "icon": "mdi:battery-40",
+          "icon": "mdi:battery-10",
           "friendly_name": "Redmi Note 9 Pro Battery Level"
         },
-        "last_changed": "2023-01-17T08:52:54.233496+00:00",
-        "last_updated": "2023-01-17T08:52:54.233496+00:00",
+        "last_changed": "2023-01-17T19:05:55.121377+00:00",
+        "last_updated": "2023-01-17T19:05:55.121377+00:00",
         "context": {
-          "id": "01GPZEWTTSD2J6XQ2P7WZ6GZNX",
+          "id": "01GQ0HZ9NH9MK36ZN2NKJ11MT4",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 42,
+        "native_value": 17,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
@@ -216,7 +218,7 @@
         "native_value": "discharging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
@@ -236,7 +238,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
@@ -258,7 +260,7 @@
         "native_value": "none",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
@@ -280,12 +282,12 @@
         "native_value": "good",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.redmi_note_9_pro_battery_temperature",
-        "state": "26.8",
+        "state": "28.0",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "°C",
@@ -293,46 +295,46 @@
           "icon": "mdi:battery",
           "friendly_name": "Redmi Note 9 Pro Battery Temperature"
         },
-        "last_changed": "2023-01-17T09:11:59.168409+00:00",
-        "last_updated": "2023-01-17T09:11:59.168409+00:00",
+        "last_changed": "2023-01-17T19:05:55.123565+00:00",
+        "last_updated": "2023-01-17T19:05:55.123565+00:00",
         "context": {
-          "id": "01GPZFZRY0GXDFKJJ71A23PMVX",
+          "id": "01GQ0HZ9NK7FTFQG2BDW580Y23",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 26.8,
+        "native_value": 28.0,
         "native_unit_of_measurement": "°C"
       },
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.redmi_note_9_pro_battery_power",
-        "state": "3.94",
+        "state": "0.08",
         "attributes": {
           "state_class": "measurement",
-          "current": 1.037598,
-          "voltage": 3.798,
+          "current": 0.020446,
+          "voltage": 3.735,
           "unit_of_measurement": "W",
           "device_class": "power",
           "icon": "mdi:battery-plus",
           "friendly_name": "Redmi Note 9 Pro Battery Power"
         },
-        "last_changed": "2023-01-17T09:11:59.174253+00:00",
-        "last_updated": "2023-01-17T09:11:59.174253+00:00",
+        "last_changed": "2023-01-17T19:05:55.125341+00:00",
+        "last_updated": "2023-01-17T19:05:55.125341+00:00",
         "context": {
-          "id": "01GPZFZRY6YRB5612S240EW7D6",
+          "id": "01GQ0HZ9NNQHAN6Z9KF0NR7Z20",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 3.94,
+        "native_value": 0.08,
         "native_unit_of_measurement": "W"
       },
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
@@ -351,96 +353,96 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.mi_8_battery_level",
-        "state": "64",
+        "state": "11",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "%",
           "device_class": "battery",
-          "icon": "mdi:battery-charging-60",
+          "icon": "mdi:battery-10",
           "friendly_name": "MI 8 Battery Level"
         },
-        "last_changed": "2023-01-17T09:16:41.843389+00:00",
-        "last_updated": "2023-01-17T09:16:41.843389+00:00",
+        "last_changed": "2023-01-17T19:03:47.543924+00:00",
+        "last_updated": "2023-01-17T19:03:47.543924+00:00",
         "context": {
-          "id": "01GPZG8CZK6G7RWFXY66X0RRN4",
+          "id": "01GQ0HVD2QE87D2V907K3Y6ZPM",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 64,
+        "native_value": 11,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.mi_8_battery_state",
-        "state": "charging",
+        "state": "discharging",
         "attributes": {
-          "icon": "mdi:battery-plus",
+          "icon": "mdi:battery-minus",
           "friendly_name": "MI 8 Battery State"
         },
-        "last_changed": "2023-01-17T08:47:50.395692+00:00",
-        "last_updated": "2023-01-17T08:47:50.395692+00:00",
+        "last_changed": "2023-01-17T11:52:16.795575+00:00",
+        "last_updated": "2023-01-17T11:52:16.795575+00:00",
         "context": {
-          "id": "01GPZEKJ3VGD8F2N7BH640ZXSC",
+          "id": "01GPZS594VAJE69M39HP0TEFXD",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "charging",
+        "native_value": "discharging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
         "entity_id": "binary_sensor.mi_8_is_charging",
-        "state": "on",
+        "state": "off",
         "attributes": {
           "device_class": "plug",
-          "icon": "mdi:power-plug",
+          "icon": "mdi:power-plug-off",
           "friendly_name": "MI 8 Is Charging"
         },
-        "last_changed": "2023-01-17T08:47:50.401451+00:00",
-        "last_updated": "2023-01-17T08:47:50.401451+00:00",
+        "last_changed": "2023-01-17T11:52:16.797159+00:00",
+        "last_updated": "2023-01-17T11:52:16.797159+00:00",
         "context": {
-          "id": "01GPZEKJ41GS4NCFS7RJYXPZFG",
+          "id": "01GPZS594XSQ08T3BP6QM52FV4",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.mi_8_charger_type",
-        "state": "ac",
+        "state": "none",
         "attributes": {
-          "icon": "mdi:power-plug",
+          "icon": "mdi:battery",
           "friendly_name": "MI 8 Charger Type"
         },
-        "last_changed": "2023-01-17T08:47:50.408789+00:00",
-        "last_updated": "2023-01-17T08:47:50.408789+00:00",
+        "last_changed": "2023-01-17T11:52:16.798791+00:00",
+        "last_updated": "2023-01-17T11:52:16.798791+00:00",
         "context": {
-          "id": "01GPZEKJ4818VD9M9WJV30YW8C",
+          "id": "01GPZS594YFJ0N1F0M5MBSNV6S",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "ac",
+        "native_value": "none",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
@@ -462,12 +464,12 @@
         "native_value": "good",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.mi_8_battery_temperature",
-        "state": "37.0",
+        "state": "31.0",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "°C",
@@ -475,46 +477,46 @@
           "icon": "mdi:battery",
           "friendly_name": "MI 8 Battery Temperature"
         },
-        "last_changed": "2023-01-17T09:16:41.845573+00:00",
-        "last_updated": "2023-01-17T09:16:41.845573+00:00",
+        "last_changed": "2023-01-17T19:03:47.546096+00:00",
+        "last_updated": "2023-01-17T19:03:47.546096+00:00",
         "context": {
-          "id": "01GPZG8CZN549J5AGAPM1PW7PP",
+          "id": "01GQ0HVD2TK04FWVT8ZG0DFPFN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 37.0,
+        "native_value": 31.0,
         "native_unit_of_measurement": "°C"
       },
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.mi_8_battery_power",
-        "state": "-8.32",
+        "state": "0.1",
         "attributes": {
           "state_class": "measurement",
-          "current": -1.935545,
-          "voltage": 4.3,
+          "current": 0.026855,
+          "voltage": 3.715,
           "unit_of_measurement": "W",
           "device_class": "power",
-          "icon": "mdi:battery-minus",
+          "icon": "mdi:battery-plus",
           "friendly_name": "MI 8 Battery Power"
         },
-        "last_changed": "2023-01-17T09:16:41.856460+00:00",
-        "last_updated": "2023-01-17T09:16:41.856460+00:00",
+        "last_changed": "2023-01-17T19:03:47.547963+00:00",
+        "last_updated": "2023-01-17T19:03:47.547963+00:00",
         "context": {
-          "id": "01GPZG8D003JJ911Q8R3XN1PD4",
+          "id": "01GQ0HVD2V8B5HJZZ38GJYG9T1",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": -8.32,
+        "native_value": 0.1,
         "native_unit_of_measurement": "W"
       },
-      "last_seen": "2023-01-17T09:24:29.700844+00:00"
+      "last_seen": "2023-01-17T19:09:29.753184+00:00"
     }
   ]
 }

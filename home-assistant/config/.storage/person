@@ -8,11 +8,10 @@
         "name": "Рустем",
         "user_id": "416d032c6db44a6487ff1e7a4cd858c7",
         "device_trackers": [
-          "device_tracker.redmi_note_9_pro",
-          "device_tracker.mi_8"
+          "device_tracker.redmi_note_9_pro"
         ],
         "id": "rustem",
-        "picture": null
+        "picture": "/api/image/serve/c4752f9d27c7f16e93f6ce5eec97ecc3/512x512"
       },
       {
         "name": "Катя",
@@ -20,7 +19,7 @@
           "device_tracker.mi_8"
         ],
         "user_id": "78c0d82854184354823adf743d857309",
-        "picture": null,
+        "picture": "/api/image/serve/d1ee87f7a1cc869038d8f1e85a48044a/512x512",
         "id": "ekaterina"
       }
     ]

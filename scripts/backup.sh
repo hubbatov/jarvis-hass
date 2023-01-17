@@ -5,8 +5,10 @@ set -e
 read -p "Enter login: " LOGIN
 read -s -p "Enter password: " PASSWORD
 
-ENDPOINT="https://webdav.yandex.ru/dump"
+ENDPOINT="https://webdav.yandex.ru/"
 BACKUP_NAME=jarvis_backup_$(date +"%Y%m%d_%H%M%S")
+
+TOKEN=$(<$1)
 
 echo "Waiting..."
 
@@ -21,7 +23,8 @@ sudo cp -r mqtt/ssl/ $BACKUP_NAME/mqtt/ssl/
 sudo tar czf $BACKUP_NAME.tar.gz $BACKUP_NAME
 
 sudo rm -rf ./$BACKUP_NAME
-curl --progress-bar -o /dev/stdout --verbose -T $BACKUP_NAME.tar.gz --user $LOGIN:$PASSWORD $ENDPOINT/$BACKUP_NAME.tar.gz
+curl --progress-bar -o /dev/stdout --verbose --header "Authorization: OAuth $TOKEN" -T $BACKUP_NAME.tar.gz $ENDPOINT/$BACKUP_NAME.tar.gz
+#curl --header "Authorization: OAuth $TOKEN" -T $BACKUP_NAME.tar.gz $ENDPOINT/$BACKUP_NAME.tar.gz
 sudo rm ./$BACKUP_NAME.tar.gz
 
 echo "Done"
