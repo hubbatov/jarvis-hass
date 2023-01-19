@@ -4,3 +4,5 @@
 /home-assistant/config/*
 
 /scripts/.yandex_token
+
+/ansible/logs/*

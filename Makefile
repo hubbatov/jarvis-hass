@@ -1,3 +1,6 @@
+prepare:
+	ansible-playbook ansible/playbooks/prepare.yml -v
+
 up:
 	docker-compose up -d
  

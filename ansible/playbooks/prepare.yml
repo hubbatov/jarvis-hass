@@ -1,0 +1,38 @@
+- hosts: localhost
+  tasks:
+    - name: Install env
+      become: yes
+      apt:
+        name: ['mc', 'htop', 'ca-certificates', 'curl', 'gnupg', 'lsb-release']
+        state: latest
+    - name: Make dir for keyrings
+      become: yes
+      file: 
+        path: '/etc/apt/keyrings'
+        state: directory
+    - name: Check docker`s gpg exists
+      stat:
+        path: /etc/apt/keyrings/docker.gpg
+      register: gpg_stat
+    - name: Get gpg for docker
+      become: yes
+      shell: |
+        curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+      when: not gpg_stat.stat.exists
+    - name: Add docker`s repository
+      become: yes
+      shell: |
+        echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null
+    - name: Install docker
+      become: yes
+      apt:
+        name: [ 'docker-ce', 'docker-ce-cli', 'containerd.io', 'docker-compose-plugin', 'docker-compose']
+        update_cache: yes
+    - name: Postinstall docker
+      become: yes
+      shell: |
+        groupadd docker
+        usermod -aG docker $USER
+    - name: Creating docker group
+      shell: |
+        newgrp docker 
