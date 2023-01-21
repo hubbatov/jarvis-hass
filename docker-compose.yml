@@ -20,3 +20,9 @@ services:
       - ./mqtt/config:/mosquitto/config
       - ./mqtt/conf.d:/mosquitto/conf.d
       - ./mqtt/ssl:/mosquitto/ssl
+  prometheus:
+    container_name: prometheus
+    image: prom/prometheus
+    network_mode: host
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml

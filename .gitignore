@@ -6,3 +6,5 @@
 /scripts/.yandex_token
 
 /ansible/logs/*
+
+/prometheus/.hass_bearer_token

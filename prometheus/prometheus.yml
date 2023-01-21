@@ -1,0 +1,25 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 30s
+  scrape_timeout: 10s
+
+rule_files:
+  - "rules/*.rules"
+
+scrape_configs:
+  - job_name: prometheus
+
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  - job_name: docker
+
+    static_configs:
+      - targets: ['localhost:9323']
+
+  - job_name: home-assistant
+    scrape_interval: 60s
+    metrics_path: /api/prometheus
+    bearer_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI3YTI3MWI2NWVmZDE0M2U2OTM0MGRmNTIyZDA2MGU4NyIsImlhdCI6MTY3NDI5NDE1MCwiZXhwIjoxOTg5NjU0MTUwfQ.JqYB5xQL8hH0xFdLmbfdOXXxfkNNvBWlHgLDXUWCCxM" 
+    static_configs:
+      - targets: ['localhost:8123']
