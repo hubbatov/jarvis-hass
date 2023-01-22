@@ -37,3 +37,19 @@ services:
     restart: unless-stopped
     volumes:
       - '/:/host:ro,rslave'
+  grafana:
+    container_name: grafana
+    image: grafana/grafana
+    user: root
+    depends_on:
+      - prometheus
+    ports:
+      - 3000:3000
+    volumes:
+      - ./grafana:/var/lib/grafana
+      - ./grafana/provisioning/:/etc/grafana/provisioning/
+    hostname: grafana
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      TZ: "Europe/Moscow"
