@@ -3,10 +3,13 @@ version: '3'
 services:     
   home-assistant:
     container_name: home-assistant
-    image: homeassistant/home-assistant:2023.1.2
+    image: homeassistant/home-assistant:2022.12
     restart: always
     privileged: true
+    command: hass -c /config -v
     volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
       - ./home-assistant/config:/config
     network_mode: host
     environment:

@@ -24,4 +24,4 @@ scrape_configs:
       - targets: ['localhost:8123']
     scrape_interval: 60s
     metrics_path: /api/prometheus
-    bearer_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI3YTI3MWI2NWVmZDE0M2U2OTM0MGRmNTIyZDA2MGU4NyIsImlhdCI6MTY3NDI5NDE1MCwiZXhwIjoxOTg5NjU0MTUwfQ.JqYB5xQL8hH0xFdLmbfdOXXxfkNNvBWlHgLDXUWCCxM" 
+    bearer_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJlZjY3ODVhZDY0NmU0Y2E5ODk0YjA5NTczZjUwN2QzNyIsImlhdCI6MTY3NDUwNjMzMCwiZXhwIjoxOTg5ODY2MzMwfQ.7W59f7S76u-24FFtx0wy5IJSVNsfBuXThFQ1dhthq5k" 

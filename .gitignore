@@ -8,3 +8,5 @@
 /ansible/logs/*
 
 /prometheus/.hass_bearer_token
+
+/grafana/*

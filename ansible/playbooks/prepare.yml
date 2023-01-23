@@ -34,6 +34,7 @@
         groupadd docker
         usermod -aG docker $USER
     - name: Creating docker group
+      become: yes
       shell: |
         newgrp docker
     - name: Check docker`s daemon.json exists
@@ -43,6 +44,6 @@
     - name: Copy daemon.json to /etc/docker
       become: yes
       shell: |
-        cp ./docker/daemon.json /etc/docker/daemon.json
+        cp ../docker/daemon.json /etc/docker/daemon.json
         service docker restart
       when: not daemon_stat.stat.exists

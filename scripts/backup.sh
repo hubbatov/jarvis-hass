@@ -8,11 +8,13 @@ TOKEN=$(<$1)
 
 echo "Waiting..."
 
-mkdir -p $BACKUP_NAME/{home-assistant/config,scripts,prometheus}
+mkdir -p $BACKUP_NAME/{home-assistant/config,scripts,prometheus,grafana}
 
-sudo cp -r home-assistant/config/* $BACKUP_NAME/home-assistant/config
+sudo cp -r -a home-assistant/config/. $BACKUP_NAME/home-assistant/config
+
 sudo cp scripts/.yandex_token $BACKUP_NAME/scripts/.yandex_token
 sudo cp prometheus/.hass_bearer_token $BACKUP_NAME/prometheus/.hass_bearer_token
+sudo cp -r -a grafana/* $BACKUP_NAME/grafana
 
 sudo tar czf $BACKUP_NAME.tar.gz $BACKUP_NAME
 
