@@ -1,0 +1,1 @@
+30 3 * * * ubuntu cd /home/ubuntu/projects/jarvis-hass && sudo chown -R ubuntu ./ &&  make backup
