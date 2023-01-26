@@ -1,0 +1,4 @@
+[submodule "xiaomi-miot"]
+	path = hass-xiaomi-miot
+	url = https://github.com/al-one/hass-xiaomi-miot.git
+	branch = master
