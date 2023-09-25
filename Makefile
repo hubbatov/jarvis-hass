@@ -20,4 +20,4 @@ backup:
 	./scripts/backup.sh ./scripts/.yandex_token
 
 restore:
-	./scripts/restore.sh ./scripts/.yandex_token jarvis_backup_20230122_152507
+	./scripts/restore.sh ./scripts/.yandex_token jarvis_backup_20230617_033001

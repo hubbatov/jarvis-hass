@@ -50,4 +50,4 @@
     - name: Add backup with cron
       become: yes
       shell: |
-        cp ../etc/cron.d/jarvis-hass /etc/cron.d/jarvis-hass
+        cp ../../etc/cron.d/jarvis-hass /etc/cron.d/jarvis-hass
